@@ -72,7 +72,7 @@ max_date = all_df["order_purchase_timestamp"].max()
  
 with st.sidebar:
     # Menambahkan gambar
-    st.image("gambar.png")
+    st.image("dashboard/gambar.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
